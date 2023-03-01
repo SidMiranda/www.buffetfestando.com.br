@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Festando - Buffet a Domicilío</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Buffet a Domicilío" name="keywords">
+        <meta content="Buffet a Domicilío" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <!--<link href="css/font-awesome.min.css" rel="stylesheet">-->
+
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Festando <span>Buffet</span></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Início</a>
+                        <a href="#" class="nav-item nav-link" hidden>Sobre</a>
+                        <a href="feature.html" class="nav-item nav-link" hidden>Feature</a>
+                        <a href="#" class="nav-item nav-link" hidden>Equipe</a>
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <a href="https://api.whatsapp.com/send?phone=5511999055223" target="_blank" class="nav-item nav-link">Agendar</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Mídias</a>
+                            <div class="dropdown-menu">
+                                <a href="https://www.facebook.com/festandobuffet" target="_blank" >Facebook</a><br>
+                                <a href="https://www.instagram.com/festandobuffet/" target="_blank" >Instagram</a>
+                            </div>
+                        </div>
+                        <a href="index.html#contato" class="nav-item nav-link">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        
+        <!-- Page Header Start -->
+        <div class="page-header mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>CONHEÇA NOSSAS DIVERSAS OPÇÕES DE CARDÁPIOS</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">Início</a>
+                        <a href="">Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+        
+        
+        <!-- Food Start -->
+        <div class="food" hidden>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-burger"></i>
+                            <h2>Lanches</h2>
+                            <img src="img/pmacarrao.jpg" style="width:100%;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-snack"></i>
+                            <h2>Petiscos</h2>
+                            <img src="img/pmacarrao.jpg" style="width:100%;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-cocktail"></i>
+                            <h2>Bebidas</h2>
+                            <img src="img/pmacarrao.jpg" style="width:100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Food End -->
+        
+
+        <!-- Menu Start -->
+        <div class="menu">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Cardápios</p>
+                    <h2>Nossos deliciosos pratos</h2>
+                </div>
+                <div class="blog">
+                    <!-- <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Festa-Junina.jpg" alt="Blog">
+                                    </div>
+                                    <style>.blog-content{background-color:rgb(245, 239, 239)!important;text-align:center;}
+                                    </style>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Festa Junina e Julina</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mFesta-Junina.jpg')"> 
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div> -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Coquetel-3-Estrelas.jpg" alt="Blog">
+                                    </div>
+                                    <style>.blog-content{background-color:rgb(245, 239, 239)!important;text-align:center;}
+                                    </style>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Coquetel 3 Estrelas</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mCoquetel-3-Estrelas.jpg')"> 
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Coquetel-4-Estrelas.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Coquetel 4 Estrelas</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mCoquetel-4-Estrelas.jpg')">
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Coquetel-5-Estrelas.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Coquetel 5 Estrelas</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mCoquetel-5-Estrelas.jpg')">
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Crepe-Frances.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content" style="line-height:0.2;">
+                                        <h2 class="blog-title">Crepe Francês</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mCrepe-Frances.jpg')">
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Feijoadissima.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Feijoadissima</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mFeijoadissima.jpg')">
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Moda-Italiana.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Moda Italiana</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mModa-Italiana.jpg')"> 
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Coffe-Break.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Coffee-Break</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mCoffe-Break.jpg')">
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Festival-Espoletto.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Festival de Massas Spoletto</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mDelicias-Spolleto.jpg')">
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Boteco.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Boteco</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mBoteco.jpg')">
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Delicias-de-Frango.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Delícias de Frango</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mDelicias-Frango.jpg')">
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Churrasco.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Moda Gaúcha</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mModa-Gaucha.jpg')">
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Finger-Foods.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Finger Foods</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mFinger-Foods.jpg')">
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Carne-Assada.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Delícias de Carne</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mCarne-Assada.jpg')">
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Moda-Mineira.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Moda Mineira</h2>
+                                        <div class="blog-text" onclick="exibirMenu('mModa-Mineira.jpg')">
+                                            <a class="btn custom-btn" >Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" hidden>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <img src="img/Junino-Julino.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="blog-title">Julino / Junino</h2>
+                                        
+                                        <div class="blog-text" onclick="exibirMenu('mJunino-Julino.jpg')">
+                                            
+                                            <a class="btn custom-btn">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="menu-tab" hidden>
+                    <ul class="nav nav-pills justify-content-center" hidden>
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#burgers">Coquetel 3 ⭐</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#snacks">Coquetel 4 ⭐</a>
+                        </li>
+                    </ul>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/m-feijoada.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/f-feijoada.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/f-boteco.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/m-boteco.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/m-gaucho.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/f-gaucho.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/f-frango.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/m-frango.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/m-5estrelas.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="food-item">
+                                    <img src="img/f-5estrelas.jpg" style="width:100%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" hidden>
+                        <div id="burgers" class="container tab-pane active">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="menu-item" hidden>
+                                        
+                                        <div class="menu-text">
+                                            <h3><span>Coquetel 3 estrelas</span></h3>
+                                            <p>O tradicional Coquetel com Salgados e lanchinhos, além de crepes suíços e porções deliciosas.
+                                                Atende todos os tipos de públicos e eventos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div>
+                                            <img src="img/3star.jpg" alt="Image">
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-block">
+                                    <img src="img/menu-burger-img.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="snacks" class="container tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-text">
+                                            <h3><span>Coquetel 4 Estrelas</span></h3>
+                                            <p>Nesta opção, além dos deliciosos salgados e lanchinhos, você pode servir aos seus convidados, porções saborosas de finger foods de Salada Primavera e Macarrão ao Molho Sugo e Bechamel 
+                                                Atende todos os tipos de públicos e eventos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div>
+                                            <img src="img/4star.jpg" alt="Image">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-block">
+                                    <img src="img/menu-massa-img.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="beverages" class="container tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/menu-copo-img.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>Single Cup Brew</span> <strong>$7.00</strong></h3>
+                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/menu-copo-img.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>Caffe Americano</span> <strong>$9.00</strong></h3>
+                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/menu-copo-img.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>Caramel Macchiato</span> <strong>$15.00</strong></h3>
+                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/menu-copo-img.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>Standard black coffee</span> <strong>$8.00</strong></h3>
+                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/menu-copo-img.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>Standard black coffee</span> <strong>$12.00</strong></h3>
+                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-block">
+                                    <img src="img/menu-copo-img.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <div id="model">
+            <div>
+                <spam onclick="fecharMenu()">&nbsp; X &nbsp;</spam>
+                <img id="menuImage">
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-contact">
+                                    <h2>Endereço</h2>
+                                    <p hidden><i class="fa fa-map-marker-alt"></i>Nosso Escritório: Rua Benta Dias, 24 - Mooca</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>Rua Manuel Jorge Correia, 33 - Itaquera</p>
+                                    <p><i class="fa fa-phone-alt"></i>+55 (11) 2074-1011</p>
+                                    <p><i class="fa fa-phone-alt"></i>+55 (11) 99905-5223</p>
+                                    <p hidden><i class="fa fa-envelope"></i>bruna@buffetfestando.com.br</p>
+                                    <div class="footer-social">
+                                        <a href="" hidden><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/festandobuffet"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="" hidden><i class="fab fa-youtube"></i></a>
+                                        <a href="https://www.instagram.com/festandobuffet"><i class="fab fa-instagram"></i></a>
+                                        <a href="" hidden><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>Links Rápidos</h2>
+                                    <a href="">Inicio</a>
+                                    <a href="">Sobre</a>
+                                    <a href="">Menu</a>
+                                    <a href="">Agenda</a>
+                                    <a href="">Contato</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-newsletter">
+                            <h2>+ Arte de fazer festa</h2>
+                            <p>
+                                O FESTANDO, é um buffet a domicílio, 
+                                com presença há 2 anos no mercado, com uma larga carteira de 
+                                clientes 100% satisfeitos. <br>
+                                Realizando todos os tipos de eventos Sociais e Corporativos. <br>
+                                Cuidamos de todos os detalhes para que 
+                                seu evento seja um dia inesquecível e especial. <br>
+                            </p>
+                            
+                            <div class="form" hidden>
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn custom-btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; <a href="#">Festando Buffet à Domicílio</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://mobspot.com.br">Mobspot</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="https://api.whatsapp.com/send?phone=5511999055223"
+        style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000;" 
+        target="_blank"><i style="margin-top:16px" class="fab fa-whatsapp"></i></a>
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <script>
+            var model = document.getElementById("model")
+            var img = document.getElementById("menuImage")
+
+            function exibirMenu(cName){
+                //alert(cName)
+                img.setAttribute('src', 'img/' + cName)
+                $("#model").css("display", "flex").hide().fadeIn("slow");
+            }
+
+            function fecharMenu(){
+                $("#model").fadeOut();
+            }
+        </script>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFEEMEWC2F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KFEEMEWC2F');
+</script>
+    </body>
+</html>
